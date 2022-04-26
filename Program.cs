@@ -8,12 +8,11 @@ namespace Par_ou_impar
 {
     class Program
     {
-       static void Main(string[] args)
-        { 
+        static void Main(string[] args)
+        {
             int num;
-
             Console.WriteLine("Escreva um número:");
-            num= int.Parse(Console.ReadLine());
+            num = int.Parse(Console.ReadLine());
             parOuImpar(num);
         }
         static void parOuImpar(int num1)
@@ -28,4 +27,5 @@ namespace Par_ou_impar
             }
         }
     }
+
 }
